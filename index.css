@@ -1,0 +1,79 @@
+body{
+    background-color: rgba(0, 26, 255, 0.822);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.main-container{
+    max-height:26rem;
+    border: 1px solid black;
+    width: 20rem;
+    position:fixed;
+    bottom: 40%;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 120px 10px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+input{
+    height:2rem;
+    width:92%;
+    margin-left:2.5%;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+::placeholder{
+    font-weight: 600;
+    
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#swap-button{
+    background-color: transparent;
+    border: none;
+    font-size: medium;
+}
+#submitted{
+    height:2rem;
+    width: 12rem;
+    background-color: forestgreen;
+    color: aliceblue;
+    margin-left: 20%;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+.from{
+    display: flex;
+    border: .4px solid black;
+    border-radius: 10px;
+    
+   
+}
+.from select{
+    background-color: transparent;
+    border: none;
+    width: 3rem;
+    font-weight: 600;
+}
+.to { 
+    display: flex;
+    border: .4px solid black;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.to select{
+    background-color: transparent;
+    border: none;
+    width: 3rem;
+    font-weight: 600;
+}
